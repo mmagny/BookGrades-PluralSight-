@@ -5,3 +5,10 @@ c:\!Mike\VS\source\repos\Grades\Grades\obj\Debug\Grades.csprojAssemblyReference.
 c:\!Mike\VS\source\repos\Grades\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
 c:\!Mike\VS\source\repos\Grades\Grades\obj\Debug\Grades.exe
 c:\!Mike\VS\source\repos\Grades\Grades\obj\Debug\Grades.pdb
+C:\!Mike\VS\source\repos\GradesBook-PluralSight\Grades\bin\Debug\Grades.exe.config
+C:\!Mike\VS\source\repos\GradesBook-PluralSight\Grades\bin\Debug\Grades.exe
+C:\!Mike\VS\source\repos\GradesBook-PluralSight\Grades\bin\Debug\Grades.pdb
+C:\!Mike\VS\source\repos\GradesBook-PluralSight\Grades\obj\Debug\Grades.csprojAssemblyReference.cache
+C:\!Mike\VS\source\repos\GradesBook-PluralSight\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
+C:\!Mike\VS\source\repos\GradesBook-PluralSight\Grades\obj\Debug\Grades.exe
+C:\!Mike\VS\source\repos\GradesBook-PluralSight\Grades\obj\Debug\Grades.pdb

@@ -14,14 +14,6 @@ namespace Grades
             //SpeechSynthesizer synth = new SpeechSynthesizer();
             //synth.Speak("Hello! This is the grade book program");
 
-            GradeBook g1 = new GradeBook();
-            GradeBook g2 = g1;
-
-            g1 = new GradeBook();
-            g1.Name = "Scott's grade book";
-            Console.WriteLine(g2.Name);
-
-            /*
             GradeBook book = new GradeBook();
             book.AddGrade(91);
             book.AddGrade(89.5f);
@@ -31,8 +23,6 @@ namespace Grades
             Console.WriteLine("Average: " + stats.AverageGrade);
             Console.WriteLine("Highest: " + stats.HighestGrade);
             Console.WriteLine("Lowest: " + stats.LowestGrade);
-            */
-
         }
     }
 }

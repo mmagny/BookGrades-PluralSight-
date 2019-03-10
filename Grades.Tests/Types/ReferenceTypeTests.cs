@@ -8,12 +8,16 @@ using System.Threading.Tasks;
 namespace Grades.Tests.Types
 {
     [TestClass]
-    class ReferenceTypeTests
+    public class ReferenceTypeTests
     {
         [TestMethod]
         public void VariableHoldAReference()
         {
+            GradeBook g1 = new GradeBook();
+            GradeBook g2 = g1;
 
+            g1.Name = "Scott's grade book";
+            Assert.AreEqual(g1.Name, g2.Name);
         }
 
     }

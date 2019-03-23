@@ -15,14 +15,31 @@ namespace Grades
             //synth.Speak("Hello! This is the grade book program");
 
             GradeBook book = new GradeBook();
+            book.Name = "Scott's Grade Book";
+            //book.Name = null;
             book.AddGrade(91);
             book.AddGrade(89.5f);
             book.AddGrade(75);
 
             GradeStatistics stats = book.ComputeStatistics();
-            Console.WriteLine("Average: " + stats.AverageGrade);
-            Console.WriteLine("Highest: " + stats.HighestGrade);
-            Console.WriteLine("Lowest: " + stats.LowestGrade);
+            Console.WriteLine(book.Name);
+            WriteResult("Average", stats.AverageGrade);
+            WriteResult("Highest", (int)stats.HighestGrade);
+            WriteResult("Lowest", stats.LowestGrade);
+        }
+
+        static void WriteResult(string description, int result)
+        {
+            Console.WriteLine(description + ": " + result);
+        }
+
+        static void WriteResult(string description, float result)
+        {
+            //Console.WriteLine(description + ": " + result);
+            //Console.WriteLine("{0}: {1}", description, result);
+            //Console.WriteLine("{0}: {1:F2}", description, result); //2 Digits Float
+            //Console.WriteLine("{0}: {1:C}", description, result); //Currency
+            Console.WriteLine($"{description}: {result:F2}"); //String Interpolation
         }
     }
 }
